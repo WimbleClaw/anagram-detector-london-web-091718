@@ -11,6 +11,7 @@ class Anagram
       anagram = word.split.sort
       word = @word.split.sort
       anagram == word
+      binding.pry
       # if anagram == word
       #   return word
       # end
