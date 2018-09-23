@@ -12,6 +12,8 @@ class Anagram
       word = @word.split.sort
       if anagram == word
         return word
+      else 
+        []
       end
     end
 
