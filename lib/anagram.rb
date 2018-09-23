@@ -13,11 +13,6 @@ class Anagram
       anagram = word.split("").sort
       word = @word.split("").sort
       anagram == word
-
-      # if anagram == word
-      #   return word
-      # end
     end
-
   end
 end
